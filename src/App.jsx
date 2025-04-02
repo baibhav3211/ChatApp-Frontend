@@ -4,7 +4,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import EmojiPicker from 'emoji-picker-react';
 import { FaSmile } from 'react-icons/fa';
 
-const socket = io('http://localhost:3000');
+const socket = io('https://chat-app-backend-ofkj.onrender.com');
 
 const App = () => {
     const [connected, setConnected] = useState(false);
